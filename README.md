@@ -1,73 +1,165 @@
-# Welcome to your Lovable project
+# 🏥 VITAL - Healthcare Management System
 
-## Project info
+VITAL is a healthcare management system designed to simplify hospital and clinic management operations.  
+The project helps manage patients, appointments, doctors, and medical records efficiently through a simple and user-friendly interface.
 
-**URL**: https://lovable.dev/projects/a451c3a0-a9f4-4942-8d76-96d6d4fc9470
+---
 
-## How can I edit this code?
+# 🚀 Features
 
-There are several ways of editing your application.
+- 👨‍⚕️ Patient Registration & Management
+- 📅 Appointment Booking System
+- 🩺 Doctor Management
+- 📋 Medical Records Storage
+- 🔐 Secure Login Authentication
+- 📊 Admin Dashboard
+- 📱 Responsive Design
+- 💾 Database Integration
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/a451c3a0-a9f4-4942-8d76-96d6d4fc9470) and start prompting.
+# 🛠️ Technologies Used
 
-Changes made via Lovable will be committed automatically to this repo.
+## Frontend
+- HTML
+- CSS
+- JavaScript
 
-**Use your preferred IDE**
+## Backend
+- Node.js
+- Express.js
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Database
+- MySQL
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Tools
+- Git
+- GitHub
+- VS Code
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# 📂 Project Structure
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```bash
+VITAL/
+│
+├── frontend/
+├── backend/
+├── database/
+├── assets/
+├── package.json
+└── README.md
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+# ⚙️ Installation & Setup
 
-**Use GitHub Codespaces**
+## 1️⃣ Clone the Repository
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```bash
+git clone https://github.com/dinesh548/VITAL.git
+```
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## 2️⃣ Navigate to Project Directory
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+```bash
+cd VITAL
+```
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/a451c3a0-a9f4-4942-8d76-96d6d4fc9470) and click on Share -> Publish.
+## 3️⃣ Install Dependencies
 
-## Can I connect a custom domain to my Lovable project?
+```bash
+npm install
+```
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 4️⃣ Start the Application
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+```bash
+npm start
+```
+
+---
+
+# 🗄️ Database Setup
+
+## Create Database in MySQL
+
+```sql
+CREATE DATABASE vital_db;
+```
+
+## Import SQL File
+Import the SQL file available in the project folder into MySQL.
+
+---
+
+# 💡 Future Enhancements
+
+- Online Video Consultation
+- AI-based Health Suggestions
+- Payment Gateway Integration
+- SMS & Email Notifications
+- Mobile Application
+- Report Generation
+
+---
+
+# 📸 Screenshots
+
+_Add project screenshots here_
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repository
+2. Create a feature branch
+
+```bash
+git checkout -b feature-name
+```
+
+3. Commit your changes
+
+```bash
+git commit -m "Added new feature"
+```
+
+4. Push to GitHub
+
+```bash
+git push origin feature-name
+```
+
+5. Create a Pull Request
+
+---
+
+# 📜 License
+
+This project is created for educational and learning purposes.
+
+---
+
+# 👨‍💻 Author
+
+## Dinesh Tellamekala
+
+- GitHub: https://github.com/dinesh548
+- Repository: https://github.com/dinesh548/VITAL
+
+---
+
+# ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
